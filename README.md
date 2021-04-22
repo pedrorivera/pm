@@ -1,6 +1,6 @@
 # Ethereum Project Management Repository
 
-This repository is used for project management for various initiatives affecting the Ethereum protocol, such as the All Core Devs calls, Ethereum 1.x calls and more.
+This repository is used for project management for various initiatives affecting the Ethereum protocol. The main use of this repository is for the All Core Devs meeting, but it is also used for [Ethereum 1.x](/ETH-1X), [Merge](/Merge) and [Fee Market](/Fee-Market) meetings. 
 
 ## All Core Devs Meetings
 
@@ -9,85 +9,29 @@ The All Core Devs meeting is a technical call intended to bring together various
 
 ### Agendas
 
-Below are the agendas for the upcomming All Core Devs calls. To add an item to an agenda, please [open an issue in this repository](https://github.com/ethereum/pm/issues/new) which mentions the topic you want to discuss, when you would like to discuss this on All Core Devs, the amount of time you think you will need and links any relevant materials (EIPs, prototypes, etc.).
+The agendas for the calls are tracked in the Issues tab of this repository, under the "agenda" label ([link](https://github.com/ethereum/pm/issues?q=is%3Aissue+label%3Aagenda+)). To add an item to an agenda, please [open an issue in this repository](https://github.com/ethereum/pm/issues/new) which mentions the topic you want to discuss and links any relevant materials (EIPs, prototypes, etc.). Then, leave a comment in the agenda where you would like this to be discussed. You can see an example [here](https://github.com/ethereum/pm/issues/289#issuecomment-809501046).
 
 Anyone is welcome to add an item to the agenda as long as it follows these guidelines:
 - The topic is technical in nature.
 - The topic involves the Ethereum protocol at a low-level. This means Dapps and ERCs are generally not allowed as topics.
 - The topic should not be philosophical. The core developer meetings are not meant to decide philosophical contentious issues that should be decided by the community. There are exceptions to this, but generally these topics distract from more productive technical discussion.
 
-#### ACD 109: April 2, 2021
-
-**Note, with DST ending, the meeting time may be different in your region. Please double-check the meeting time in the section below. UTC time does not "move".**
-
-#### Meeting Info
-
-* [April 2, 2021, 14:00 UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/apr-2-2021/2pm)
-* Duration: 90 minutes
-* Youtube Stream: https://youtu.be/V-Qz4UN6Z88
-
-#### Agenda
-1. [Berlin](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/berlin.md) Updates
-    - Rinkeby fork updates [#248](https://github.com/ethereum/pm/issues/248#issuecomment-791499728)
-1. [London](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/london.md) Updates 
-    -  Client implementation updates 
-3. Shanghai & The Merge Proposals:
-    - Shanghai delayed with focus on merge [#278](https://github.com/ethereum/pm/issues/278)
-        - "Merge sprint" from mid-April to mid-May 
-    - Shanghai in October (no merge) [#267](https://github.com/ethereum/pm/issues/267)
-4. EIP Discussions
-      1. Gas Refund Alternatives:
-          - EIP-3322 - Efficient Gas Storage [#266](https://github.com/ethereum/pm/issues/266)
-          - EIP-3403 - Partial Removal of Refunds [#277](https://github.com/ethereum/pm/issues/277)
-      1. `BASE FEE` Opcode [#270](https://github.com/ethereum/pm/issues/270)
-      1. EIP-3074 - `AUTH` and `AUTHCALL` opcodes [#260](https://github.com/ethereum/pm/issues/260)
-      1. EIP-2537 - Precompile for BLS12-381 curve operations [#269](https://github.com/ethereum/pm/issues/269)
-      1. EIP-2327 - BEGINDATA [#262](https://github.com/ethereum/pm/issues/262)
-      1. EIP-2677 - Limit size of `initcode` [#271](https://github.com/ethereum/pm/issues/271)
-      1. EIP-2935 - Save historical block hashes in state [#279](https://github.com/ethereum/pm/issues/279)
-      1. EIP-2315 - Simple Subroutines [#274](https://github.com/ethereum/pm/issues/274)
-      1. [Aleady in London] EIP-3238 - Difficulty Bomb [#256](https://github.com/ethereum/pm/issues/256)
-          - Need to agree on pushback period
-
-<details>
-  <summary>ACD 110: April 16, 2021</summary>
-
-  #### Meeting Info
-  * [April 16, 2021, 14:00 UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/apr-16-2021/2pm)
-  * Duration: 90 minutes
-  * Youtube Stream: TBA
-
-  #### Agenda
-  1. TBA
-</details>
-
-<details>
-  <summary>ACD 111: April 30, 2021</summary>
-
-  #### Meeting Info
-  * [April 30, 2021, 14:00 UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/apr-30-2021/2pm)
-  * Duration: 90 minutes
-  * Youtube Stream: TBA
-
-  #### Agenda
-  1. TBA
-</details>
-
-
 ### Who Can Attend
-Low-level protocol developers, client developers, and core Ethereum researchers are invited to attend the meetings. Generally every Ethereum client is represented as well as key members of Layer 1 research/scaling teams. Sometimes a non-core developer with particular expertise on a topic is invited on to discuss a specific agenda item. If you feel you would contribute to the meetings by your attendance please reach out to [Tim Beiko](mailto:tim@ethereum.org).
+Protocol developers, client developers, and core Ethereum researchers are invited to attend the meetings. Generally every Ethereum client is represented as well as key members of Layer 1 research/scaling teams. Sometimes a non-core developer with particular expertise on a topic is invited on to discuss a specific agenda item. If you feel you would contribute to the meetings by your attendance please reach out to [Tim Beiko](mailto:tim@ethereum.org).
 
 ### Who Manages the Meetings
-In the beginning (2015-fall 2016) George Hallam facilitated the meetings. Since the fall of 2016 Hudson Jameson has facilitated and recorded the meetings. In early 2018 Lane Rettig joined to help facilitate meetings, handle recordings, and publish notes from the meetings. Since 2018, the Ethereum Cat Herders have been in charge of note taking for the meetings. Starting March 2021, Tim Beiko will be facilitating the meetings.
+In the beginning (2015-fall 2016) George Hallam facilitated the meetings. Since the fall of 2016 Hudson Jameson has facilitated and recorded the meetings. In early 2018 Lane Rettig joined to help facilitate meetings, handle recordings, and publish notes from the meetings. Starting March 2021, Tim Beiko has been facilitating and streaming the meetings. Since 2018, the Ethereum Cat Herders have been in charge of note taking for the meetings.
 
-The meetings are independent of any organization. However, Hudson Jameson and Tim Beiko are contractors for the Ethereum Foundation and the Ethereum Foundation pays for the videoconference software used in the meetings. Livestreaming instruction for the meetings can be found [here](https://docs.google.com/document/d/1dF_Drs56ErV6wJgFmbzpdN-cINshKCsB61D92NS2JDg/edit).
+The meetings are independent of any organization. However, Tim Beiko is a contractor for the Ethereum Foundation and the Ethereum Foundation pays for the videoconference software used in the meetings. Livestreaming instruction for the meetings can be found [here](https://docs.google.com/document/d/1dF_Drs56ErV6wJgFmbzpdN-cINshKCsB61D92NS2JDg/edit). 
 
 ### Previous Meetings
 
  №  | Date                             | Agenda        |Notes          | Recording            |
 --- | -------------------------------- | -------------- |-------------- | -------------------- |
-107 | Friday 05 Mar 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm#acd-107-meeting-info) | [notes](All%20Core%20Devs%20Meetings/Meeting%20107.md) | [video](https://youtu.be/xWfR-WxjmYg) | 
-106 | Friday 16 Feb 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm/#acd-106-meeting-info) | [notes](All%20Core%20Devs%20Meetings/Meeting%20106.md) | [video](https://www.youtube.com/watch?v=anrbnroO3dc) |
+109 | Friday 02 Apr 2021, 14:00UTC | [agenda](https://github.com/ethereum/pm/issues/289) | [notes](All%20Core%20Devs%20Meetings/Meeting%20109.md) | [video](https://youtu.be/V-Qz4UN6Z88) |
+108 | Friday 19 Mar 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/288) | [notes](All%20Core%20Devs%20Meetings/Meeting%20108.md) | [video](https://youtu.be/AclPXsRlgSc) |
+107 | Friday 05 Mar 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/287) | [notes](All%20Core%20Devs%20Meetings/Meeting%20107.md) | [video](https://youtu.be/xWfR-WxjmYg) | 
+106 | Friday 16 Feb 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/286) | [notes](All%20Core%20Devs%20Meetings/Meeting%20106.md) | [video](https://www.youtube.com/watch?v=anrbnroO3dc) |
 105 | Friday 05 Feb 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/241) | [notes](All%20Core%20Devs%20Meetings/Meeting%20105.md) | [video](https://youtu.be/ju92hAKzKcg) |
 104 | Friday 22 Jan 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/237) | [notes](All%20Core%20Devs%20Meetings/Meeting%20104.md) | [video](https://youtu.be/3xNfGNnQ5Vs) |
 103 | Friday 8 Jan 2021, 14:00 UTC| [agenda](https://github.com/ethereum/pm/issues/232) | [notes](All%20Core%20Devs%20Meetings/Meeting%20103.md) | [video](https://www.youtube.com/watch?v=ITVMTHzAcg0) |
@@ -194,85 +138,3 @@ The meetings are independent of any organization. However, Hudson Jameson and Ti
   2 | Fri, January 1, 2016             | None | [notes](Archive/EIPs%20Wiki/Notes.md) | not recorded |
   1 | Mon, November 30, 2015           | None | [notes](Archive/EIPs%20Wiki/Notes.md) | not recorded |
   0 | ??                               | None | [notes](Archive/EIPs%20Wiki/Notes.md) | not recorded |
-
-### Previous Agendas
-
-<details>
-  <summary>ACD 108: March 19, 2021</summary>
-
-  #### ACD 108 Meeting Info
-  * [March 19, 2021, 14:00 UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/mar-19-2021/2pm)
-  * Duration: 90 minutes
-  * Youtube Stream: https://youtu.be/AclPXsRlgSc
-
-  #### Agenda
-  1. [Berlin](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/berlin.md) Updates
-      - Ropsten & Goerli fork updates [#248](https://github.com/ethereum/pm/issues/248#issuecomment-791499728)
-  1. EIPs Proposals related to [Included London EIPs](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/london.md#included-eips)
-     1. Gas Refunds Alternatives:
-        1.  EIP-3298 - Disabling Gas Refunds [#255](https://github.com/ethereum/pm/issues/255) 
-        2.  EIP-3300 - Phase Out Refunds [#258](https://github.com/ethereum/pm/issues/258) 
-        3.  EIP-3322 - Efficient Gas Storage [#266](https://github.com/ethereum/pm/issues/266)
-        4.  EIP-3403 - Partial Removal of Refunds [#277](https://github.com/ethereum/pm/issues/277) 
-     1. EIP-3198 - `BASE FEE` Opcode [#270](https://github.com/ethereum/pm/issues/270)
-     1. EIP-3368 -  Increase block rewards to 3 ETH, with 2 Year Decay to 1 ETH Scheduled [#273](https://github.com/ethereum/pm/issues/273)
-  1. Network Upgrade Timing & Scope
-     1. London [#245](https://github.com/ethereum/pm/issues/245)
-        - Should we include anything beyond the current list? 
-     1. Shanghai: Shortly after London ([#267](https://github.com/ethereum/pm/issues/267)), or focus on The Merge ([#278](https://github.com/ethereum/pm/issues/278))
-     1. EIP-3238 - Difficulty Bomb [#256](https://github.com/ethereum/pm/issues/256)
-         - Need to agree on pushback period 
-  1. [If time permits] Other EIPs Proposals 
-     1. EIP-2315 - Simple Subroutines [#274](https://github.com/ethereum/pm/issues/274) 
-     1. BLS Support [#269](https://github.com/ethereum/pm/issues/269) 
-     1. EIP-3074 - `AUTH` and `AUTHCALL` opcodes [#260](https://github.com/ethereum/pm/issues/260)
-     1. EIP-2327 - BEGINDATA [#262](https://github.com/ethereum/pm/issues/262)
-     1. EIP-2677 - Limit size of `initcode` [#271](https://github.com/ethereum/pm/issues/271)
-     1. EIP-2935 - Save historical block hashes in state [#279](https://github.com/ethereum/pm/issues/279)
-     3. Other CFI EIPs [#259](https://github.com/ethereum/pm/issues/259)
-
-</details>
-
-<details> 
-
-  <summary>  ACD 107: March 5, 2021 </summary> 
-
-  #### ACD 107 Meeting Info
-  * [March 5, 2021, 14:00 UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/mar-5-2021/2pm)
-  * Duration: 90 minutes
-  * Youtube Stream: https://youtu.be/xWfR-WxjmYg
-
-  #### Agenda
-  1. [Berlin](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/berlin.md) Updates
-     1. EIP-2315 [#263](https://github.com/ethereum/pm/issues/263)
-     1. Berlin timing [#248](https://github.com/ethereum/pm/issues/248#issuecomment-782106181)
-     3. Client releases that support Berlin ETA + Berlin announcement 
-  1. Potential London EIPs 
-     1. EIP-1559 - Fee Market Change [#254](https://github.com/ethereum/pm/issues/254)
-     1. EIP-3238 - Difficulty Bomb Delay [#256](https://github.com/ethereum/pm/issues/256)
-     1. EIP-3298 - Disabling Gas Refunds [#255](https://github.com/ethereum/pm/issues/255) vs. EIP-3300 - Phase Out Refunds [#258](https://github.com/ethereum/pm/issues/258) vs. EIP-3322 - Efficient Gas Storage [#266](https://github.com/ethereum/pm/issues/266)
-     1. [Not covered] EIP-3074 - Sponsored Transaction Precompile [#260](https://github.com/ethereum/pm/issues/260)
-     1. [Not covered] EIP-2327 - BEGINDATA [#262](https://github.com/ethereum/pm/issues/262)
-     1. [Not covered] Other CFI EIPs [#259](https://github.com/ethereum/pm/issues/259)
-     
-</details>
-
-<details> 
-
-  <summary>  ACD 106: February 19, 2021 </summary>
-
-  #### ACD 106 Meeting Info
-  * [February 19, 2021, 14:00 UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/feb-19-2021/2pm)
-  * Duration: 90 minutes
-  * Youtube Stream: https://youtu.be/anrbnroO3dc
-
-  #### Agenda
-  1. [YOLOv3](https://github.com/ethereum/eth1.0-specs/blob/master/client-integration-testnets/YOLOv3.md) status
-  1. [Berlin](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/berlin.md) Timing [#248](https://github.com/ethereum/pm/issues/248)
-  1. London Timing [#245](https://github.com/ethereum/pm/issues/245)
-  1. Eth1 -> Eth2 Merge Requirements Overview [#247](https://github.com/ethereum/pm/issues/247)
-  1. Removing EVM Features [#250](https://github.com/ethereum/pm/issues/250)
-  1. (Announcement) 1559 Community Call [#251](https://github.com/ethereum/pm/issues/251) 
-
-</details>
-
